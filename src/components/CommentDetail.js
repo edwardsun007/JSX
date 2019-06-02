@@ -1,5 +1,4 @@
 import React from "react";
-import ApprovalCard from "./ApprovalCard";
 
 const CommentDetail = props => {
   const { author, date, content, avatar } = props;
@@ -17,7 +16,6 @@ const CommentDetail = props => {
           <span className="date">{date}</span>
         </div>
         <div className="text">{content}</div>
-        <ApprovalCard />
       </div>
     </div>
   );
